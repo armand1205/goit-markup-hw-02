@@ -4,11 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+    <hr />
+    <link rel="stylesheet" href="css/styles.index.css" />
   </head>
-  <body>
+  <body class="body">
     <header>
       <a href="index.html">
         <img
+          class="up-web-studio-logo"
           src="images/logo.svg"
           alt="WebStudio logo"
           width="145"
@@ -18,19 +21,25 @@
 
       <nav>
         <ul>
-          <li><a href="studio.html">Studio</a></li>
-          <li><a href="portofolio.html">Portofolio</a></li>
-          <li><a href="contacts.html">Contacts</a></li>
+          <li><a class="up-studio" href="studio.html">Studio</a></li>
+          <li>
+            <a class="up-portofolio" href="portofolio.html">Portofolio</a>
+          </li>
+          <li><a class="up-contacts" href="contacts.html">Contacts</a></li>
         </ul>
       </nav>
-      <a href="emailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+12127724150">+1 212-772-4150</a>
+      <a class="up-email" href="emailto:info@devstudio.com"
+        >info@devstudio.com</a
+      >
+      <a class="up-phone-number" href="tel:+12127724150">+1 212-772-4150</a>
     </header>
     <main>
       <section>
         <hr />
         <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-        <button type="button">Request our service</button>
+        <button class="request-button" type="button">
+          Request our service
+        </button>
       </section>
       <section class="atributs">
         <div>
@@ -144,7 +153,7 @@
     <footer>
       <ul>
         <li>
-          <a href="index.html">
+          <a class="down-webstudio" href="index.html">
             <img
               src="images/logo.svg"
               alt="WebStudio logo"
@@ -156,9 +165,19 @@
       </ul>
       <address>
         <ul>
-          <li><b>695 Park Ave, NY 10065, USA</b></li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+12127724150">+1 212-772-4150</a></li>
+          <li>
+            <p class="down-address"><b>695 Park Ave, NY 10065, USA</b></p>
+          </li>
+          <li>
+            <a class="down-email" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="down-phone-number" href="tel:+12127724150"
+              >+1 212-772-4150</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
