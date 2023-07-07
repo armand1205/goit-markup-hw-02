@@ -10,6 +10,7 @@ body {
 
 button:hover {
   background-color: yellow;
+  cursor: pointer;
 }
 a:hover {
   background-color: green;
@@ -19,7 +20,7 @@ a:hover {
   color: blue;
 }
 
-.up-webstudio {
+.up-web-studio-logo {
   width: 145px;
   height: 31px;
   top: 24px;
@@ -31,7 +32,7 @@ a:hover {
   letter-spacing: 0.03em;
   text-align: left;
 }
-.up-webstudio:focus {
+.up-web-studio-logo:focus {
   background-color: blue;
 }
 
@@ -108,7 +109,7 @@ a:hover {
   background-color: aqua;
 }
 
-.down-webstudio {
+.down-web-studio-logo {
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -120,11 +121,11 @@ a:hover {
   top: 2157px;
   left: 215px;
 }
-a.down-webstudio:hover {
+a.down-web-studio-logo:hover {
   background-color: red;
 }
 
-.down-adress {
+.down-address {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
@@ -136,7 +137,7 @@ a.down-webstudio:hover {
   top: 2216px;
   left: 215px;
 }
-.down-adress:focus {
+.down-address:focus {
   color: red;
 }
 
