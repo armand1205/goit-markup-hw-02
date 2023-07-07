@@ -10,18 +10,31 @@ body {
 
 button:hover {
   background-color: yellow;
-  a:hover {
-    background-color: green;
-  }
+}
+a:hover {
+  background-color: green;
 }
 
-.request-button:focus {
+.first-button:focus {
   color: blue;
 }
 
-.up-web-studio-logo:focus {
+.up-webstudio {
+  width: 145px;
+  height: 31px;
+  top: 24px;
+  left: 215px;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.up-webstudio:focus {
   background-color: blue;
 }
+
 .up-studio {
   font-family: Roboto;
   font-size: 14px;
@@ -34,11 +47,9 @@ button:hover {
   top: 32px;
   left: 453px;
 }
-
 .up-studio:focus {
   background-color: pink;
 }
-
 .up-portofolio {
   font-family: Roboto;
   font-size: 14px;
@@ -51,11 +62,9 @@ button:hover {
   top: 32px;
   left: 545px;
 }
-
-.up-potofolio:focus {
+.up-portofolio:focus {
   color: turquoise;
 }
-
 .up-contacts {
   font-family: Roboto;
   font-size: 14px;
@@ -68,11 +77,9 @@ button:hover {
   top: 32px;
   left: 653px;
 }
-
 .up-contacts:focus {
   color: crimson;
 }
-
 .up-email {
   font-family: Roboto;
   font-size: 14px;
@@ -80,12 +87,11 @@ button:hover {
   line-height: 16px;
   letter-spacing: 0.02em;
   text-align: left;
-  width: 59px;
+  width: 135px;
   height: 16px;
   top: 32px;
-  left: 653px;
+  left: 1097px;
 }
-
 .up-email:focus {
   color: gold;
 }
@@ -97,14 +103,9 @@ button:hover {
   line-height: 16px;
   letter-spacing: 0.02em;
   text-align: left;
-  width: 59px;
-  height: 16px;
-  top: 32px;
-  left: 653px;
 }
-
 .up-phone-number:focus {
-  color: aqua;
+  background-color: aqua;
 }
 
 .down-webstudio {
@@ -119,12 +120,11 @@ button:hover {
   top: 2157px;
   left: 215px;
 }
-
 a.down-webstudio:hover {
-  background-color: aquamarine;
+  background-color: red;
 }
 
-.down-address {
+.down-adress {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
@@ -136,11 +136,11 @@ a.down-webstudio:hover {
   top: 2216px;
   left: 215px;
 }
-p.down-address:focus {
-  color: bisque;
+.down-adress:focus {
+  color: red;
 }
 
-a.down-email {
+.down-email {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
@@ -152,8 +152,7 @@ a.down-email {
   top: 2244px;
   left: 215px;
 }
-
-a.down-phone-number {
+.down-phone-number {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;

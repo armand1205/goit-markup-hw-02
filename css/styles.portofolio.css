@@ -67,20 +67,8 @@ a:hover {
 a.up-email:hover {
   background-color: red;
 }
-.up-email {
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  width: 135px;
-  height: 16px;
-  top: 32px;
-  left: 1088px;
-}
-
-a.up-phone-number {
+.up-email,
+.up-phone-number {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
@@ -102,13 +90,14 @@ a.up-phone-number {
   text-align: left;
 }
 
-p.down-address a:focus {
+.down-address a:focus {
   color: yellow;
 }
-p.down-address a:hover {
+.down-address a:hover {
   background-color: red;
 }
-.down-address {
+.info.down-address,
+.info.domn-email {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
@@ -122,14 +111,6 @@ em.down-email a:hover {
 }
 em.down-email a:focus {
   color: brown;
-}
-.domn-email {
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-align: left;
 }
 
 em.down-phone-number a:hover {
